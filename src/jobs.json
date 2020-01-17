@@ -1,0 +1,31 @@
+[{
+        "id": 0,
+        "url": "01.png",
+        "title": "Front End Developer",
+        "skills": ["css", "html", "JavaScript", "jQuery", "html5"],
+        "time": "01-04-2020",
+        "description": "We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Also we need somebody who wants to go to USA for 2-3 months at the start of your journey in Mobica",
+
+        "resp": ["Develop new Reactive user-face from ground up according customer provided wireframes", "Ensure the technical feasibility of UI/UX designs", "Optimize application for maximum speed and scalability on desktop and mobile devices",
+            "Collaborate with other team members and stakeholders"
+        ],
+
+        "needs": [""],
+
+        "offer": ["Competitive salary adequate to your skills and performance", "Flexible working hours", "Training programs", "Private medical insurance", "Multisport program", "English lessons", "Company social events", "Weekly cakes and fruits", "Relocation assistance"]
+    },
+    {
+        "id": 1,
+        "url": "02.jpg",
+        "title": "UX Designer",
+        "skills": ["css", "html", "JavaScript", "jQuery", "html5"],
+        "time": "01-02-2020",
+        "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
+
+        "resp": ["Help create and design the applications that define the SpaceOS experience", "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps", "Use your problem-solving skills to produce easy to use and elegant solutions", "Work and communicate across teams – including creative staff, customers, developers and management", "Support the team throughout the execution of projects"],
+
+        "needs": ["Some creative industry experience", "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)", "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done", "Understanding of UX methodologies and trends", "Attention to detail with a strong focus on organization, logic, and analysis", "Appreciation and consideration of technical requirements and constraints", "The motivation to maintain and improve design standards", "The willingness to listen to feedback and use it to improve"],
+
+        "offer": ["Competitive salary adequate to your skills and performance", "Flexible working hours", "Training programs", "Private medical insurance", "Multisport program", "English lessons", "Company social events", "Weekly cakes and fruits", "Relocation assistance"]
+    }
+]

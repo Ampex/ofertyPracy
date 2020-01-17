@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+* {
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --color: #222433;
+  --shadow: 1px 2px 20px 0 rgba(0, 0, 0, 0.1);
+  --radius: 8px;
+  user-select: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center {
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
+}
+
+.branding {
+  padding: 25px;
+  justify-content: flex-start;
+}
+
+.header {
+  background: #dedede;
+  height: 300px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.tag>div {
+  margin: 5px;
+  box-shadow: var(--shadow);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content {
+  display: flex;
+}
+
+.job {
+  margin: 25px;
+  background: #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  size: 100%;
+  transition: all 0.2s;
+}
+
+.job .desc {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 390px;
+  width: 200px;
+}
+
+.job:hover {
+  box-shadow: 1px 2px 20px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.footer {
+  border-top: 1px solid var(--color);
 }
