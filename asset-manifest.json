@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ofertyPracy/static/css/main.cc1c10b2.chunk.css",
+    "main.js": "/ofertyPracy/static/js/main.993f256b.chunk.js",
+    "main.js.map": "/ofertyPracy/static/js/main.993f256b.chunk.js.map",
+    "runtime-main.js": "/ofertyPracy/static/js/runtime-main.76268a15.js",
+    "runtime-main.js.map": "/ofertyPracy/static/js/runtime-main.76268a15.js.map",
+    "static/js/2.fdd99e53.chunk.js": "/ofertyPracy/static/js/2.fdd99e53.chunk.js",
+    "static/js/2.fdd99e53.chunk.js.map": "/ofertyPracy/static/js/2.fdd99e53.chunk.js.map",
+    "index.html": "/ofertyPracy/index.html",
+    "precache-manifest.354779ecb3acfe9cd3ed140db72db522.js": "/ofertyPracy/precache-manifest.354779ecb3acfe9cd3ed140db72db522.js",
+    "service-worker.js": "/ofertyPracy/service-worker.js",
+    "static/css/main.cc1c10b2.chunk.css.map": "/ofertyPracy/static/css/main.cc1c10b2.chunk.css.map",
+    "static/js/2.fdd99e53.chunk.js.LICENSE": "/ofertyPracy/static/js/2.fdd99e53.chunk.js.LICENSE",
+    "static/media/01.png": "/ofertyPracy/static/media/01.623b6c99.png",
+    "static/media/02.jpg": "/ofertyPracy/static/media/02.b864ca5d.jpg",
+    "static/media/03.jpg": "/ofertyPracy/static/media/03.917d7150.jpg",
+    "static/media/04.png": "/ofertyPracy/static/media/04.5542b35e.png",
+    "static/media/06.jpg": "/ofertyPracy/static/media/06.75aa8ca9.jpg",
+    "static/media/07.jpg": "/ofertyPracy/static/media/07.46a1cd67.jpg",
+    "static/media/08.jpg": "/ofertyPracy/static/media/08.b40bb55f.jpg",
+    "static/media/2213285.jpg": "/ofertyPracy/static/media/2213285.279e4b87.jpg",
+    "static/media/2268085.jpg": "/ofertyPracy/static/media/2268085.8bba119c.jpg",
+    "static/media/bg.svg": "/ofertyPracy/static/media/bg.4a004c1c.svg",
+    "static/media/bg.ai": "/ofertyPracy/static/media/bg.6c77d963.ai",
+    "static/media/brand-logo.ai": "/ofertyPracy/static/media/brand-logo.43356f91.ai",
+    "static/media/brand-logo.svg": "/ofertyPracy/static/media/brand-logo.e6d400f5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76268a15.js",
+    "static/js/2.fdd99e53.chunk.js",
+    "static/css/main.cc1c10b2.chunk.css",
+    "static/js/main.993f256b.chunk.js"
+  ]
+}
