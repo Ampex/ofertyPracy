@@ -1,31 +1,319 @@
-[{
-        "id": 0,
-        "url": "01.png",
-        "title": "Front End Developer",
-        "skills": ["css", "html", "JavaScript", "jQuery", "html5"],
-        "time": "01-04-2020",
-        "description": "We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Also we need somebody who wants to go to USA for 2-3 months at the start of your journey in Mobica",
+[
+  {
+    "id": 0,
+    "location": "Warsaw",
+    "url": "01.png",
+    "title": "Front End Developer",
+    "skills": ["Docker", "JavaScript", "Jenkins"],
+    "time": "01-04-2020",
+    "description": "We are looking for a Front-End Web Developer who is motivated to combine the art of design with the art of programming. Also we need somebody who wants to go to USA for 2-3 months at the start of your journey in Mobica",
 
-        "resp": ["Develop new Reactive user-face from ground up according customer provided wireframes", "Ensure the technical feasibility of UI/UX designs", "Optimize application for maximum speed and scalability on desktop and mobile devices",
-            "Collaborate with other team members and stakeholders"
-        ],
+    "resp": [
+      "Develop new Reactive user-face from ground up according customer provided wireframes",
+      "Ensure the technical feasibility of UI/UX designs",
+      "Optimize application for maximum speed and scalability on desktop and mobile devices",
+      "Collaborate with other team members and stakeholders"
+    ],
 
-        "needs": [""],
+    "needs": [
+      "Some creative industry experience",
+      "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)",
+      "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done",
+      "Understanding of UX methodologies and trends",
+      "Attention to detail with a strong focus on organization, logic, and analysis",
+      "Appreciation and consideration of technical requirements and constraints",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
 
-        "offer": ["Competitive salary adequate to your skills and performance", "Flexible working hours", "Training programs", "Private medical insurance", "Multisport program", "English lessons", "Company social events", "Weekly cakes and fruits", "Relocation assistance"]
-    },
-    {
-        "id": 1,
-        "url": "02.jpg",
-        "title": "UX Designer",
-        "skills": ["css", "html", "JavaScript", "jQuery", "html5"],
-        "time": "01-02-2020",
-        "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  },
+  {
+    "id": 1,
+    "location": "Warsaw",
+    "url": "02.jpg",
+    "title": "UX Designer",
+    "skills": ["CSS", "HTML5", "JavaScript"],
+    "time": "01-02-2020",
+    "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
 
-        "resp": ["Help create and design the applications that define the SpaceOS experience", "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps", "Use your problem-solving skills to produce easy to use and elegant solutions", "Work and communicate across teams – including creative staff, customers, developers and management", "Support the team throughout the execution of projects"],
+    "resp": [
+      "Help create and design the applications that define the SpaceOS experience",
+      "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps",
+      "Use your problem-solving skills to produce easy to use and elegant solutions",
+      "Work and communicate across teams – including creative staff, customers, developers and management",
+      "Support the team throughout the execution of projects"
+    ],
 
-        "needs": ["Some creative industry experience", "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)", "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done", "Understanding of UX methodologies and trends", "Attention to detail with a strong focus on organization, logic, and analysis", "Appreciation and consideration of technical requirements and constraints", "The motivation to maintain and improve design standards", "The willingness to listen to feedback and use it to improve"],
+    "needs": [
+      "Some creative industry experience",
+      "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)",
+      "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done",
+      "Understanding of UX methodologies and trends",
+      "Attention to detail with a strong focus on organization, logic, and analysis",
+      "Appreciation and consideration of technical requirements and constraints",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
 
-        "offer": ["Competitive salary adequate to your skills and performance", "Flexible working hours", "Training programs", "Private medical insurance", "Multisport program", "English lessons", "Company social events", "Weekly cakes and fruits", "Relocation assistance"]
-    }
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  },
+  {
+    "id": 2,
+    "location": "Krakow",
+    "url": "03.jpg",
+    "title": "Java Designer",
+    "skills": ["Java", "HTML5", "Spring"],
+    "time": "01-02-2020",
+    "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
+
+    "resp": [
+      "Help create and design the applications that define the SpaceOS experience",
+      "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps",
+      "Use your problem-solving skills to produce easy to use and elegant solutions",
+      "Work and communicate across teams – including creative staff, customers, developers and management",
+      "Support the team throughout the execution of projects"
+    ],
+
+    "needs": [
+      "Some creative industry experience",
+      "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)",
+      "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done",
+      "Understanding of UX methodologies and trends",
+      "Attention to detail with a strong focus on organization, logic, and analysis",
+      "Appreciation and consideration of technical requirements and constraints",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
+
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  },
+  {
+    "id": 3,
+    "location": "Warsaw",
+    "url": "04.png",
+    "title": "UI Developer",
+    "skills": ["Adobe XD", "Illustrator"],
+    "time": "01-02-2020",
+    "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
+
+    "resp": [
+      "Help create and design the applications that define the SpaceOS experience",
+      "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps",
+      "Use your problem-solving skills to produce easy to use and elegant solutions",
+      "Work and communicate across teams – including creative staff, customers, developers and management",
+      "Support the team throughout the execution of projects"
+    ],
+
+    "needs": [
+      "Some creative industry experience",
+      "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)",
+      "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done",
+      "Understanding of UX methodologies and trends",
+      "Attention to detail with a strong focus on organization, logic, and analysis",
+      "Appreciation and consideration of technical requirements and constraints",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
+
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  },
+  {
+    "id": 4,
+    "location": "Warsaw",
+    "url": "06.jpg",
+    "title": "UX Designer",
+    "skills": ["css", "html", "JavaScript", "html5"],
+    "time": "01-02-2020",
+    "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
+
+    "resp": [
+      "Help create and design the applications that define the SpaceOS experience",
+      "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps",
+      "Use your problem-solving skills to produce easy to use and elegant solutions",
+      "Work and communicate across teams – including creative staff, customers, developers and management",
+      "Support the team throughout the execution of projects"
+    ],
+
+    "needs": [
+      "Some creative industry experience",
+      "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)",
+      "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done",
+      "Understanding of UX methodologies and trends",
+      "Attention to detail with a strong focus on organization, logic, and analysis",
+      "Appreciation and consideration of technical requirements and constraints",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
+
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  },
+  {
+    "id": 5,
+    "location": "Warsaw",
+    "url": "07.jpg",
+    "title": "Web Developer",
+    "skills": ["HTML", "JavaScript", "CSS"],
+    "time": "01-02-2020",
+    "description": "Web developers design web pages, sites or applications. They listen to user requests and specifications and provide attractive and capable web applications. Developers guarantee built in features for security, compatibility and integration online. When building a website, developers assess the structure, appeal, purpose and security.",
+
+    "resp": [
+      "Help create and design the applications that define the SpaceOS experience",
+      "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps",
+      "Use your problem-solving skills to produce easy to use and elegant solutions",
+      "Work and communicate across teams – including creative staff, customers, developers and management",
+      "Support the team throughout the execution of projects"
+    ],
+
+    "needs": [
+      "Upload websites",
+      "Make existing applications compatible",
+      "Implement security measures",
+      "Understanding of UX methodologies and trends",
+      "Working knowledge in designing for Mobile/Tablets",
+      "Build content and other intranet applications",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
+
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  },
+  {
+    "id": 6,
+    "location": "Warsaw",
+    "url": "08.jpg",
+    "title": "UX Designer",
+    "skills": ["Jira", "Git", "JavaScript", "Java"],
+    "time": "01-02-2020",
+    "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
+
+    "resp": [
+      "Help create and design the applications that define the SpaceOS experience",
+      "Use your problem-solving skills to produce easy to use and elegant solutions",
+      "Work and communicate across teams – including creative staff, customers, developers and management",
+      "Support the team throughout the execution of projects"
+    ],
+
+    "needs": [
+      "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)",
+      "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done",
+      "Understanding of UX methodologies and trends",
+      "Attention to detail with a strong focus on organization, logic, and analysis",
+      "Appreciation and consideration of technical requirements and constraints",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
+
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  },
+  {
+    "id": 7,
+    "location": "Lubin",
+    "url": "02.jpg",
+    "title": "UX Designer",
+    "skills": ["React", "JavaScript"],
+    "time": "01-02-2020",
+    "description": "Your role as UX designer will be an integral part of our design team and you will be reporting to / working very closely with our Head of Design and Head of Product",
+
+    "resp": [
+      "Help create and design the applications that define the SpaceOS experience",
+      "Produce design specifications, user flows, journeys, prototypes, and wireframes for our web & mobile apps",
+      "Use your problem-solving skills to produce easy to use and elegant solutions",
+      "Work and communicate across teams – including creative staff, customers, developers and management",
+      "Support the team throughout the execution of projects"
+    ],
+
+    "needs": [
+      "Some creative industry experience",
+      "Good knowledge of iOS/Android and Web design principles (best UX practices, UI patterns)",
+      "Experience with Sketch, InVision, Adobe Creative Suite and/or other tools that will help you to get the job done",
+      "Understanding of UX methodologies and trends",
+      "Attention to detail with a strong focus on organization, logic, and analysis",
+      "Appreciation and consideration of technical requirements and constraints",
+      "The motivation to maintain and improve design standards",
+      "The willingness to listen to feedback and use it to improve"
+    ],
+
+    "offer": [
+      "Competitive salary adequate to your skills and performance",
+      "Flexible working hours",
+      "Training programs",
+      "Private medical insurance",
+      "Multisport program",
+      "English lessons",
+      "Company social events",
+      "Weekly cakes and fruits",
+      "Relocation assistance"
+    ]
+  }
 ]
