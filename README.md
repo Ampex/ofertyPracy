@@ -1,5 +1,5 @@
 Example of job searching platform.
-**Form are not ready yet!**
+**Form is not ready yet!**
 
 # Live demo here: [DEMO](https://ampex.github.io/ofertyPracy//)
 
