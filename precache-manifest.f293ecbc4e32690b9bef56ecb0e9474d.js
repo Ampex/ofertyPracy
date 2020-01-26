@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4209ffbdaf1b80d107cf0bd5cef400f",
+    "revision": "c5e66300a4b56a2675ff1c72a23cac08",
     "url": "/ofertyPracy/index.html"
   },
   {
-    "revision": "743bb7e23e2521d910f8",
-    "url": "/ofertyPracy/static/css/main.cc1c10b2.chunk.css"
+    "revision": "903d55979d30f9598020",
+    "url": "/ofertyPracy/static/css/main.d3340293.chunk.css"
   },
   {
-    "revision": "46e97b7eb379a3a68f31",
-    "url": "/ofertyPracy/static/js/2.fdd99e53.chunk.js"
+    "revision": "7cba9ad48dd3ac6d9ba1",
+    "url": "/ofertyPracy/static/js/2.641644fe.chunk.js"
   },
   {
     "revision": "b51e62edbcf7a9c4f4ad13f506021d3e",
-    "url": "/ofertyPracy/static/js/2.fdd99e53.chunk.js.LICENSE"
+    "url": "/ofertyPracy/static/js/2.641644fe.chunk.js.LICENSE"
   },
   {
-    "revision": "743bb7e23e2521d910f8",
-    "url": "/ofertyPracy/static/js/main.993f256b.chunk.js"
+    "revision": "903d55979d30f9598020",
+    "url": "/ofertyPracy/static/js/main.1c177369.chunk.js"
   },
   {
     "revision": "ba4047a484a981319f07",
