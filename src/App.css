@@ -1,3 +1,15 @@
+@media (max-width: 650px) {
+  .header {
+    max-height: 120px;
+    padding: 0 15px;
+    background-position: 0 150px !important;
+  }
+
+  .footer {
+    height: 100px !important;
+  }
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
