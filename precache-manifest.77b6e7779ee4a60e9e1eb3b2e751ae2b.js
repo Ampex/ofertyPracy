@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c5e66300a4b56a2675ff1c72a23cac08",
+    "revision": "742ea4fb2e42f529d064e94c97af1429",
     "url": "/ofertyPracy/index.html"
   },
   {
-    "revision": "903d55979d30f9598020",
-    "url": "/ofertyPracy/static/css/main.d3340293.chunk.css"
+    "revision": "d5217f5be176f69a2b0b",
+    "url": "/ofertyPracy/static/css/main.b0a0e08a.chunk.css"
   },
   {
     "revision": "7cba9ad48dd3ac6d9ba1",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ofertyPracy/static/js/2.641644fe.chunk.js.LICENSE"
   },
   {
-    "revision": "903d55979d30f9598020",
+    "revision": "d5217f5be176f69a2b0b",
     "url": "/ofertyPracy/static/js/main.1c177369.chunk.js"
   },
   {

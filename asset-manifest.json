@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ofertyPracy/static/css/main.d3340293.chunk.css",
+    "main.css": "/ofertyPracy/static/css/main.b0a0e08a.chunk.css",
     "main.js": "/ofertyPracy/static/js/main.1c177369.chunk.js",
     "main.js.map": "/ofertyPracy/static/js/main.1c177369.chunk.js.map",
     "runtime-main.js": "/ofertyPracy/static/js/runtime-main.76268a15.js",
@@ -8,9 +8,9 @@
     "static/js/2.641644fe.chunk.js": "/ofertyPracy/static/js/2.641644fe.chunk.js",
     "static/js/2.641644fe.chunk.js.map": "/ofertyPracy/static/js/2.641644fe.chunk.js.map",
     "index.html": "/ofertyPracy/index.html",
-    "precache-manifest.f293ecbc4e32690b9bef56ecb0e9474d.js": "/ofertyPracy/precache-manifest.f293ecbc4e32690b9bef56ecb0e9474d.js",
+    "precache-manifest.77b6e7779ee4a60e9e1eb3b2e751ae2b.js": "/ofertyPracy/precache-manifest.77b6e7779ee4a60e9e1eb3b2e751ae2b.js",
     "service-worker.js": "/ofertyPracy/service-worker.js",
-    "static/css/main.d3340293.chunk.css.map": "/ofertyPracy/static/css/main.d3340293.chunk.css.map",
+    "static/css/main.b0a0e08a.chunk.css.map": "/ofertyPracy/static/css/main.b0a0e08a.chunk.css.map",
     "static/js/2.641644fe.chunk.js.LICENSE": "/ofertyPracy/static/js/2.641644fe.chunk.js.LICENSE",
     "static/media/01.png": "/ofertyPracy/static/media/01.623b6c99.png",
     "static/media/02.jpg": "/ofertyPracy/static/media/02.b864ca5d.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.76268a15.js",
     "static/js/2.641644fe.chunk.js",
-    "static/css/main.d3340293.chunk.css",
+    "static/css/main.b0a0e08a.chunk.css",
     "static/js/main.1c177369.chunk.js"
   ]
 }
