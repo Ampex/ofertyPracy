@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { makeStyles } from '@material-ui/core/styles'
-import { Grow } from '@material-ui/core'
 import data from '../jobs'
 import CheckCircleIcon from '@material-ui/icons/CheckCircle'
 import {
@@ -10,7 +9,8 @@ import {
   Typography,
   DialogActions,
   Button,
-  Chip
+  Chip,
+  Grow
 } from '@material-ui/core'
 
 const useStyles = makeStyles({
@@ -26,13 +26,18 @@ const useStyles = makeStyles({
   list: {
     fontSize: 4
   },
+  title: {
+    textTransform: 'uppercase',
+    color: '#2a2d3a',
+    letterSpacing: '-0.9px'
+  },
   img: {
     height: 160,
     width: 'auto'
   }
 })
 
-const Content = () => {
+const Content = props => {
   const classes = useStyles()
   const [isOpen, setOpen] = useState(false)
   const [isFill, setFill] = useState('')
@@ -61,31 +66,37 @@ const Content = () => {
     <img src={require(`../images/${isFill.url || '01.png'}`)} alt='' />
   )
 
-  const jobList = data.map(job => (
-    <div onClick={() => handleClick(job)} key={job.id} className='job'>
-      <img
-        className={classes.img}
-        src={require(`../images/${job.url}`)}
-        alt='job-img'
-      />
-      <div style={{ margin: '15px' }}>
-        <Typography variant='h6'>{job.title}</Typography>
-        <Typography display='block' variant='caption'>
-          {job.location}
-        </Typography>
-        {job.skills.map(skill => (
-          <Chip
-            className='skill'
-            variant='outlined'
-            size='small'
-            color='secondary'
-            key={skill}
-            label={skill}
-            onClick={() => console.log()}
-          />
-        ))}
+  const jobFilter = data.filter(job => job.title.includes(props.value))
+
+  const jobList = (props.value ? jobFilter : data).map(job => (
+    <Grow in key={job.id}>
+      <div onClick={() => handleClick(job)} className='job'>
+        <img
+          className={classes.img}
+          src={require(`../images/${job.url}`)}
+          alt='job-img'
+        />
+        <div style={{ margin: '15px' }}>
+          <Typography className={classes.title} variant='h6'>
+            {job.title}
+          </Typography>
+          <Typography display='block' variant='caption'>
+            {job.location}
+          </Typography>
+          {job.skills.map(skill => (
+            <Chip
+              className='skill'
+              variant='outlined'
+              size='small'
+              color='secondary'
+              key={skill}
+              label={skill}
+              onClick={() => console.log()}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </Grow>
   ))
 
   return (

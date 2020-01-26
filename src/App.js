@@ -7,6 +7,17 @@ import Footer from './components/Footer'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core'
 
 const theme = createMuiTheme({
+  overrides: {
+    MuiOutlinedInput: {
+      root: {
+        fontSize: 35,
+        color: '#2a2d3a'
+      },
+      input: {
+        textTransform: 'lowercase'
+      }
+    }
+  },
   palette: {
     type: 'light',
     primary: {
@@ -46,7 +57,6 @@ class App extends Component {
         <div className='container'>
           <Branding />
           <Header onChange={this.handleChange} value={value} />
-          {/* <Tag /> */}
           <Content value={value} />
           <Footer />
         </div>
