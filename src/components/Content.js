@@ -32,10 +32,10 @@ const useStyles = makeStyles({
   }
 })
 
-const Content = props => {
+const Content = () => {
   const classes = useStyles()
   const [isOpen, setOpen] = useState(false)
-  const [isFill, setFill] = useState([])
+  const [isFill, setFill] = useState('')
   const [isAccept, setAccept] = useState(false)
 
   const handleClick = job => {
@@ -47,14 +47,19 @@ const Content = props => {
     setOpen(!isOpen)
     setAccept(false)
   }
+
   const handleAccept = () => {
     setAccept(true)
   }
 
   const listing = props => {
     const list = props.map(e => <li key={e}>{e}</li>)
-    return list
+    return <ul>{list}</ul>
   }
+
+  const img = (
+    <img src={require(`../images/${isFill.url || '01.png'}`)} alt='' />
+  )
 
   const jobList = data.map(job => (
     <div onClick={() => handleClick(job)} key={job.id} className='job'>
@@ -97,23 +102,21 @@ const Content = props => {
             />
           </Grow>
         </DialogTitle>
-        {isOpen && (
-          <div className='job-img'>
-            <img src={require(`../images/${isFill.url}`)} alt='' />
-          </div>
+        {<div className='job-img'>{img}</div>}
+        {isFill && (
+          <DialogContent>
+            <Typography variant='h6'>Description</Typography>
+            <Typography style={{ marginBottom: 10 }}>
+              {isFill.description}
+            </Typography>
+            <Typography variant='h6'>Responsibility</Typography>
+            {listing(isFill.resp)}
+            <Typography variant='h6'>Needs</Typography>
+            {listing(isFill.needs)}
+            <Typography variant='h6'>Offer</Typography>
+            {listing(isFill.offer)}
+          </DialogContent>
         )}
-        <DialogContent>
-          <Typography variant='h6'>Description</Typography>
-          <Typography style={{ marginBottom: 10 }}>
-            {isFill.description}
-          </Typography>
-          <Typography variant='h6'>Responsibility</Typography>
-          <ul>{isOpen && listing(isFill.resp)}</ul>
-          <Typography variant='h6'>Needs</Typography>
-          <ul>{isOpen && listing(isFill.needs)}</ul>
-          <Typography variant='h6'>Offer</Typography>
-          <ul>{isOpen && listing(isFill.offer)}</ul>
-        </DialogContent>
 
         <DialogActions>
           <Button variant='outlined' onClick={handleClose} color='secondary'>
